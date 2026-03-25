@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import comHibernate.*;
 
-@WebServlet("/login")
+@WebServlet("/Login")
 public class BaseServlet extends HttpServlet {
 	
 		@Override
