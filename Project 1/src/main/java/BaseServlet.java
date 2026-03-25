@@ -25,7 +25,7 @@ public class BaseServlet extends HttpServlet {
 //			
 			PrintWriter out = resp.getWriter();
 //				out.print(user);
-//				out.print(pass);
+
 				
 			EntityManager em = CreateConnection.getConnection();
 			EntityTransaction et = em.getTransaction();
