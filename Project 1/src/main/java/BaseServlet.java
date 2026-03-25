@@ -42,7 +42,6 @@ public class BaseServlet extends HttpServlet {
 				
 			}
 			
-			//resp.sendRedirect("access-denied.html");
 			
 		}
 	
